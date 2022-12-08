@@ -16,6 +16,12 @@ defmodule ChatWeb.RoomChannel do
     {:noreply, socket}
   end
 
+  ## Added for d3 collision sample
+  def handle_in("move", %{"x" => x, "y" => y}, socket) do
+    broadcast!(socket, "move", %{x: x, y: y})
+    {:noreply, socket}
+  end
+
   # Channels can be used in a request/response fashion
   # by sending replies to requests from the client
   @impl true
