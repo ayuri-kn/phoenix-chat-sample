@@ -1,11 +1,11 @@
 # Elixir + Phoenixでチャットアプリケーションを作ってみよう 2022
 
 # 前提環境
-macOS 12.5.1
-Elixir 1.14.1
-Erlang/OTP 25
-Phoenix 1.6.15
-Docker環境(Docker Desktopなど)
+- macOS 12.5.1
+- Elixir 1.14.1
+- Erlang/OTP 25
+- Phoenix 1.6.15
+- Docker環境(Docker Desktopなど)
 
 # 本リポジトリの説明
 - 本リポジトリは後述する手順にて既に作成済みのリポジトリとなります
